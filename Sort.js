@@ -86,6 +86,7 @@ const mergeSort = function(arr){
   let right = mergeSort(arr.slice(mid))
   console.log("left", left)
   console.log("right", right)
+  console.log("test")
   return merge(left, right)
 }
 
